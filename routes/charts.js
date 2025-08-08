@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const path = require("path");
-const CSVParser = require("../backend/utils/csvParser");
+const CSVParser = require("../utils/csvParser");
 
 // Get all chart data
 router.get("/all", async (req, res) => {
